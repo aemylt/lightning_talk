@@ -16,6 +16,7 @@
 %-----------------------------------------z-----------------------------------------------
 
 \documentclass[notes]{beamer}
+%\documentclass[]{beamer}
 
 \usepackage{amsfonts}
 \usepackage{graphicx}
@@ -77,7 +78,7 @@ A computer which uses the laws of quantum mechanics to solve some problems asymp
 
 Pros:
 \begin{itemize}
-\item<2-> They push the limits of our best security protocols, via polynomial time algorithms for factoring and discrete log\footnote{Montanaro, npj Quantum Information 2, 15023 (2016)}
+\item<2-> They push the limits of our best security protocols, via polynomial time algorithms for hard problems including factoring and discrete log\footnote{Montanaro, npj Quantum Information 2, 15023 (2016)}
 \item<3-> They allow us to simulate scientific experiments exponentially faster
 \item<4-> They can help us solve large search problems -- including NP-hard problems\footnote{Moylett et al., Phys. Rev. A 95, 032323 (2017)} -- quadratically faster
 \item<5-> They provide exponential speedups for some machine learning problems (SVM, PCA, recommendation systems)
@@ -96,7 +97,7 @@ We do have quantum computers, including some which you can program on right now:
 
 The problem is that they are not currently large enough to outperform classical computers at the problems I mentioned earlier.
 
-The largest number factorised by Shor's algorithm so far is 21\footnote{Martín-López et al., Nature Photonics, 6, 773}. Other quantum computing methods have achieved 291311\footnote{Li et al., {\tt arXiv:1706.08061}}, but this is still a way off breaking RSA.
+The largest number factorised by Shor's algorithm so far is 21\footnote{Mart\'in-L\'opez et al., Nature Photonics, 6, 773}. Other quantum computing methods have achieved 291311\footnote{Li et al., {\tt arXiv:1706.08061}}, but this is still a way off breaking RSA.
 \end{frame}
 
 \section{D-Wave}
@@ -307,36 +308,6 @@ Other issues include noise and errors, which build up in quantum states over tim
 %------------------------------------------------
 \section{And now a word from our sponsors!}
 %------------------------------------------------
-
-\begin{frame}
-\frametitle{World Aids Day Red Run}
-
-  \begin{columns}[T]
-    \begin{column}{.5\textwidth}
-    \begin{center}
-    \includegraphics[scale=0.4]{RR-logo}\\
-    \includegraphics[scale=0.7]{brigstowe}
-    \end{center}
-    \end{column}
-    \begin{column}{.5\textwidth}
-    \begin{itemize}
-    \item I'm running ten kilometres
-    
-    \item Raising money for Brigstowe, \url{www.brigstowe.org}
-    
-    \item Please donate here \url{https://www.justgiving.com/fundraising/alex-moylett}
-    
-    \item Fancy dress suggestions appreciated!
-    \end{itemize}
-    \end{column}
-  \end{columns}
-
-\end{frame}
-
-\note[itemize]{
-\item Pictured top: Text: World AIDS Day Red Run, Victoria Park, London, 26.11.17
-\item Pictured bottom: Text: brigstowe, positive change together
-}
 
 \begin{frame}
 \frametitle{Quantum Engineering Centre for Doctoral Training}
